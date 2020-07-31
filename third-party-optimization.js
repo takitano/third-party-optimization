@@ -15,7 +15,7 @@
  * @license   GNU
  * @author    Iri Takeshi
  * @copyright Iri Takeshi (Paris, France)
- * @link      https://github.com/takitano/third-party-optimization/blob/master/README.md$
+ * @link      https://github.com/takitano/third-party-optimization/blob/master/README.md
  */
 
 /**
