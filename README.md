@@ -77,6 +77,11 @@ if (force == true) {
   You should improve statistic on almost online tools (web.dev, bing tools, search console ... ), 
   and then your business could growth by 20 percents.
   
+  In conclusion, it is a real usefull took if you have many external services for monitoring.
+  
+  Have a Fun,
+  Takeshi !
+  
   ### Without 
   ![alt text](https://raw.githubusercontent.com/takitano/third-party-optimization/master/sans-mobile-nos-valeurs-1.png "Without third-party-optimizationicon library")
   ### With 
