@@ -6,15 +6,19 @@ Improve you third party optimization
 To understand the domain, there is a useful documentation to optimize the third party loading in this following link:
 [https://web.dev/codelab-optimize-third-party-javascript/](https://web.dev/codelab-optimize-third-party-javascript/)
 
-But allmost services providers like Google, Facebook, force developper to integrate javascript code, then
+But allmost services providers like Google, Facebook, force developer to integrate javascript code, then
 defer attribut on script tag, become unusefull.
 
 The third party opimitzation is a real nightmare for who works very hard to optimize there platform as far as possible.
 That why I created this very small javascript library.
 
+How does it work ? 
+Script waiting event from user (tap, scroll, mouse move) to load ressources.
+There is an option to detect if visitor is a bot or crawler and if true, then lock the ressources loading.  
+
 ## Documentation
 
-### Install 
+### Installation
   - Add library in your HTML code into the body tag.
 ```
 <script type="text/javascript" src="/js/third-party-optimization.js"></script>
@@ -70,5 +74,8 @@ if (force == true) {
   ## Results
   When I use the library for mobile device, I can see performance is multiplied by 2 !
   You should improve statistic on almost online tools (web.dev, bing tools, search console ... ), and then your business could growth by 20 percents.
-  
+  ### Without 
+  ![alt text](https://raw.githubusercontent.com/takitano/third-party-optimization/master/sans-mobile-nos-valeurs-1.png "Without third-party-optimizationicon library")
+  ### With 
+  ![alt text](https://raw.githubusercontent.com/takitano/third-party-optimization/master/avec-mobile-nos-valeurs-1.png "With third-party-optimizationicon library")
   
