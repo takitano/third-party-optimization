@@ -6,15 +6,15 @@ Improve you third party optimization
 To understand the domain, there is a useful documentation to optimize the third party loading in this following link:
 [https://web.dev/codelab-optimize-third-party-javascript/](https://web.dev/codelab-optimize-third-party-javascript/)
 
-But allmost services providers like Google, Facebook, force developer to integrate javascript code, then
-defer attribut on script tag, become unusefull.
+But almost all services providers like Google, Facebook, force developers to integrate javascript code, then the
+`defer` attribute on script tag, become unuseful.
 
-The third party opimitzation is a real nightmare for who works very hard to optimize there platform as far as possible.
+The *third party loading* domain is a real nightmare for who works very hard to optimize their platform as far as possible.
 That why I created this very small javascript library.
 
 How does it work ? 
-Script waiting event from user (tap, scroll, mouse move) to load ressources.
-There is an option to detect if visitor is a bot or crawler and if true, then lock the ressources loading.  
+Script waits event from user (tap, scroll, mouse move) to load ressources.
+There is an option to detect if visitor is a bot or crawler and if it is true, then lock the ressources loading.  
 
 ## Documentation
 
@@ -30,12 +30,11 @@ There is an option to detect if visitor is a bot or crawler and if true, then lo
 <script type="text/javascript">
 
     let tp = new thirdParty();
-    
-	// and add some other codes ... 
+    // and add some other codes ... 
 </script>
 ```
 ### Options
-In constructor, there are 2 parameters:
+In constructor function, there are 2 parameters:
   - `event`: if true, then script wait user activity (scroll, mouse move, touch) to load third party files.
   - `bot`: if a crawler load and execute scripts then third party files are not loaded.
   
