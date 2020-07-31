@@ -35,7 +35,7 @@ In constructor, there are 2 parameters:
   - `event`: if true, then script wait user activity (scroll, mouse move, touch) to load third party files.
   - `bot`: if a crawler load and execute scripts then third party files are not loaded.
   
-  ```
+  ```javascript
   # here, event = true, bot = false
   let tp = new thirdParty(true, false);
   ```
@@ -43,7 +43,7 @@ In constructor, there are 2 parameters:
 ### Add links and functions
 
   - To add a javascript file to load or a specific function, use the add function
-  ```
+  ```javascript
   // to add a link
     tp.add("https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-XXX");
   
@@ -56,9 +56,9 @@ In constructor, there are 2 parameters:
 There is a second parameter: 
   - `force`: if true, then ressource is directly executed, and by pass the waiting. This option allow to have a dynamic loading according to the context.
 example:
-```
+```javascript
 // We force the third file loading to send the message.
-let force = isInHomePage ? true ? false;
+let force = isInHomePage ? true : false;
 tp.add('https://www.analytics.com/...', force);
 
 // We have to be sur that library is loaded to send a message.
@@ -68,5 +68,7 @@ if (force == true) {
 ```
   
   ## Results
+  When I use the library for mobile device, I can see performance is multiplied by 2 !
+  You should improve statistic on almost online tools (web.dev, bing tools, search console ... ), and then your business could growth by 20 percents.
   
   
