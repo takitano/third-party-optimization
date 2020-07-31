@@ -73,7 +73,10 @@ if (force == true) {
   
   ## Results
   When I use the library for mobile device, I can see performance is multiplied by 2 !
-  You should improve statistic on almost online tools (web.dev, bing tools, search console ... ), and then your business could growth by 20 percents.
+  
+  You should improve statistic on almost online tools (web.dev, bing tools, search console ... ), 
+  and then your business could growth by 20 percents.
+  
   ### Without 
   ![alt text](https://raw.githubusercontent.com/takitano/third-party-optimization/master/sans-mobile-nos-valeurs-1.png "Without third-party-optimizationicon library")
   ### With 
