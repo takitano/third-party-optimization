@@ -97,12 +97,12 @@ class thirdParty {
      * @return void
      */
     script(url) {
-        var s = document.createElement('script');
+        let s = document.createElement('script');
         s.type = 'text/javascript';
         s.async = true;
         s.defer = true;
         s.src = url;
-        var x = document.getElementsByTagName('head')[0];
+        let x = document.getElementsByTagName('head')[0];
         x.appendChild(s);
     }
 
@@ -113,8 +113,8 @@ class thirdParty {
      * @return void
      */
     isBot() {
-        var re = new RegExp(this.botPattern, 'i');
-        var userAgent = navigator.userAgent;
+        let re = new RegExp(this.botPattern, 'i');
+        let userAgent = navigator.userAgent;
         if (re.test(userAgent)) {
             return true;
         }
