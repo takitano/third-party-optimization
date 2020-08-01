@@ -1,5 +1,7 @@
 # third-party-optimization
-Improve you third party optimization
+Improve you third party loading !
+
+License **GNU**.
 
 ## Introduction
 
@@ -57,7 +59,7 @@ In constructor function, there are 2 parameters:
   ```
 
 There is a second parameter: 
-  - `force`: if true, then ressource is directly executed, and by pass the waiting. This option allow to have a dynamic loading according to the context.
+  - `force`: if true, then resource is directly executed, and bypass the waiting. This option allow to have a dynamic loading according to the context.
 example:
 ```javascript
 // We force the third file loading to send the message.
@@ -76,9 +78,10 @@ if (force == true) {
   You should improve statistic on almost online tools (web.dev, bing tools, search console ... ), 
   and then your business could growth by 20 percents.
   
-  In conclusion, it is a real usefull took if you have many external services for monitoring.
+  In conclusion, it is a real usefull took if you have many external services like monitoring, chatbot ...
   
   Have a Fun,
+  
   Takeshi !
   
   ### Without 
