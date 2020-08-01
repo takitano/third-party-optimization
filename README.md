@@ -6,6 +6,7 @@ License **GNU**.
 ## Introduction
 
 To understand the domain, there is a useful documentation to optimize the third party loading in this following links:
+
 [https://web.dev/codelab-optimize-third-party-javascript/](https://web.dev/codelab-optimize-third-party-javascript/)
 
 [https://www.keycdn.com/blog/third-party-scripts](https://www.keycdn.com/blog/third-party-scripts)
